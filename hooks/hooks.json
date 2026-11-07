@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [{ "command": "./hooks/ouro-hook.sh prompt", "timeout": 10 }],
+    "beforeShellExecution": [{ "command": "./hooks/ouro-hook.sh shell", "timeout": 25 }],
+    "stop": [{ "command": "./hooks/ouro-hook.sh stop", "timeout": 1200, "loop_limit": 30 }]
+  }
+}

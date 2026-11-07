@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Ouroboros CLI launcher. Resolves the install dir from its own location (symlinks followed), runs python3.
+src="${BASH_SOURCE[0]}"
+while [ -L "$src" ]; do d="$(cd -P "$(dirname "$src")" && pwd)"; src="$(readlink "$src")"; [[ $src != /* ]] && src="$d/$src"; done
+here="$(cd -P "$(dirname "$src")/.." && pwd)"
+export OURO_HOME="${OURO_HOME:-$here}"
+exec "${OURO_PYTHON:-python3}" "$here/skill/scripts/ouro.py" "$@"

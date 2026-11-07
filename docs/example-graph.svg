@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1910" height="374" viewBox="0 0 1910 374" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#586174"/></marker></defs>
+<rect width="100%" height="100%" fill="#0d1017"/>
+<text x="30" y="30" fill="#e6e9ef" font-size="16" font-weight="600">Add rate limiting to the public API and prove it with tests</text>
+<text x="30" y="54" fill="#8b93a5" font-size="12">ACTIVE · 5/9 nodes · iteration 0/30 · planner: fallback-template</text>
+<path d="M280 118.0 C315.0 118.0 315.0 118.0 348 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M600 118.0 C635.0 118.0 635.0 118.0 668 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M920 118.0 C955.0 118.0 955.0 118.0 988 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M600 118.0 C635.0 118.0 635.0 204.0 668 204.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M920 204.0 C955.0 204.0 955.0 204.0 988 204.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M920 204.0 C955.0 204.0 955.0 290.0 988 290.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M1240 118.0 C1275.0 118.0 1275.0 118.0 1308 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M920 204.0 C1115.0 204.0 1115.0 118.0 1308 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M1240 204.0 C1275.0 204.0 1275.0 118.0 1308 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M1240 290.0 C1275.0 290.0 1275.0 118.0 1308 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<path d="M1560 118.0 C1595.0 118.0 1595.0 118.0 1628 118.0" fill="none" stroke="#586174" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="30" y="86" width="250" height="64" rx="10" fill="#12361f" stroke="#3fb950" stroke-width="1.4"/>
+<text x="42" y="105" fill="#3fb950" font-size="10.5" font-weight="700">UNDERSTAND · done</text>
+<text x="42" y="123" fill="#e6e9ef" font-size="12">Understand the goal, constraints</text>
+<text x="42" y="138" fill="#e6e9ef" font-size="12">and the existing code involved</text>
+<rect x="350" y="86" width="250" height="64" rx="10" fill="#12361f" stroke="#3fb950" stroke-width="1.4"/>
+<text x="362" y="105" fill="#3fb950" font-size="10.5" font-weight="700">DESIGN · done</text>
+<text x="362" y="123" fill="#e6e9ef" font-size="12">Design the smallest correct change</text>
+<text x="362" y="138" fill="#e6e9ef" font-size="12">and list risks</text>
+<rect x="670" y="86" width="250" height="64" rx="10" fill="#12361f" stroke="#3fb950" stroke-width="1.4"/>
+<text x="682" y="105" fill="#3fb950" font-size="10.5" font-weight="700">IMPLEMENT · done</text>
+<text x="682" y="123" fill="#e6e9ef" font-size="12">Implement the change in minimal</text>
+<text x="682" y="138" fill="#e6e9ef" font-size="12">diffs</text>
+<rect x="990" y="86" width="250" height="64" rx="10" fill="#12361f" stroke="#3fb950" stroke-width="1.4"/>
+<text x="1002" y="105" fill="#3fb950" font-size="10.5" font-weight="700">TEST · done</text>
+<text x="1002" y="123" fill="#e6e9ef" font-size="12">Add or update tests covering the</text>
+<text x="1002" y="138" fill="#e6e9ef" font-size="12">acceptance criteria</text>
+<rect x="670" y="172" width="250" height="64" rx="10" fill="#12361f" stroke="#3fb950" stroke-width="1.4"/>
+<text x="682" y="191" fill="#3fb950" font-size="10.5" font-weight="700">MIDDLEWARE · done</text>
+<text x="682" y="209" fill="#e6e9ef" font-size="12">Implement token-bucket middleware</text>
+<rect x="990" y="172" width="250" height="64" rx="10" fill="#4a3a10" stroke="#ffb028" stroke-width="1.4"/>
+<text x="1002" y="191" fill="#ffb028" font-size="10.5" font-weight="700">WIRE · in progress</text>
+<text x="1002" y="209" fill="#e6e9ef" font-size="12">Wire middleware into the router</text>
+<rect x="990" y="258" width="250" height="64" rx="10" fill="#40161a" stroke="#f85149" stroke-width="1.4"/>
+<text x="1002" y="277" fill="#f85149" font-size="10.5" font-weight="700">TESTS · failed</text>
+<text x="1002" y="295" fill="#e6e9ef" font-size="12">Add tests for burst and refill</text>
+<rect x="1310" y="86" width="250" height="64" rx="10" fill="#2b303b" stroke="#8b93a5" stroke-width="1.4"/>
+<text x="1322" y="105" fill="#8b93a5" font-size="10.5" font-weight="700">VERIFY · pending · gate</text>
+<text x="1322" y="123" fill="#e6e9ef" font-size="12">Run verification loop: build,</text>
+<text x="1322" y="138" fill="#e6e9ef" font-size="12">types, lint, tests; show</text>
+<rect x="1630" y="86" width="250" height="64" rx="10" fill="#2b303b" stroke="#8b93a5" stroke-width="1.4"/>
+<text x="1642" y="105" fill="#8b93a5" font-size="10.5" font-weight="700">REVIEW · pending · gate</text>
+<text x="1642" y="123" fill="#e6e9ef" font-size="12">Self-review the diff, guard output</text>
+<text x="1642" y="138" fill="#e6e9ef" font-size="12">with laya-guard, summarize (no</text>
+</svg>

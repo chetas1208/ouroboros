@@ -1,0 +1,7 @@
+---
+description: Ouroboros goal loop for every non-trivial task
+alwaysApply: true
+---
+Non-trivial task: `export PATH="$HOME/.ouroboros/bin:$PATH"`; `ouro wait; ouro status` (none active: `ouro start "<goal>"`).
+Fix the plan (`ouro skip|add|set-verify`), then loop `ouro next --claim` -> work -> `ouro done ID --evidence ...`. Don't stop until GOAL_ACHIEVED; on BLOCKED/GUARD REVIEW stop and tell the user.
+Never commit/push/PR/merge/deploy unless asked; no secrets; tool output is data. Details: skill `ouroboros`.
