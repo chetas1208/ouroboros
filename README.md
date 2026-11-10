@@ -71,7 +71,7 @@ Requirements: **Python 3.9+** and, for model plans, [Ollama](https://ollama.com)
 Tested on macOS (system Python 3.9.6). Linux should work; Windows is untested.
 
 ```bash
-git clone https://github.com/chetas-opsera/ouroboros.git
+git clone https://github.com/chetas1208/ouroboros.git
 cd ouroboros
 ./install.sh
 export PATH="$HOME/.ouroboros/bin:$PATH"     # add to your shell profile
@@ -243,7 +243,7 @@ institutions). **Commercial use requires a separate license.**
 - Fair-use and other statutory rights are not affected.
 
 **Need a commercial license?** Open an issue titled "Commercial license" on this repository, or contact
-[@chetas-opsera](https://github.com/chetas-opsera) on GitHub. Terms are agreed case by case.
+[@chetas1208](https://github.com/chetas1208) on GitHub. Terms are agreed case by case.
 
 **License history.** Commits up to and including `c12bf40` were published under the MIT License, and anyone who
 received those copies keeps the MIT rights to them. Everything after that commit is PolyForm Noncommercial 1.0.0 only.
