@@ -2,7 +2,7 @@
 
 **The loop that eats its own tail until the goal is achieved.**
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-orange.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776AB)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![Tests](https://img.shields.io/badge/tests-17%20passing-brightgreen)
@@ -232,4 +232,29 @@ configure (default: localhost).
 
 ## License
 
-[MIT](LICENSE). Copyright (c) 2026 Chetas P. All rights reserved except as granted by the license.
+**Ouroboros is source-available, not open source.** It is licensed under the
+[PolyForm Noncommercial License 1.0.0](LICENSE): you may use, modify and share it for **any noncommercial purpose**
+(personal use, research, study, hobby projects, and use by charities, schools, public research bodies and government
+institutions). **Commercial use requires a separate license.**
+
+- Keep the license text (or its URL) and the `Required Notice:` line from [`LICENSE`](LICENSE) in every copy you share.
+- You may not sublicense or transfer your rights.
+- Your rights end if you break the terms and do not fix it within 32 days of written notice (see the license).
+- Fair-use and other statutory rights are not affected.
+
+**Need a commercial license?** Open an issue titled "Commercial license" on this repository, or contact
+[@chetas-opsera](https://github.com/chetas-opsera) on GitHub. Terms are agreed case by case.
+
+**License history.** Commits up to and including `c12bf40` were published under the MIT License, and anyone who
+received those copies keeps the MIT rights to them. Everything after that commit is PolyForm Noncommercial 1.0.0 only.
+See [LICENSE-HISTORY.md](LICENSE-HISTORY.md).
+
+**Contributions.** By submitting a contribution you confirm you have the right to do so and agree it is licensed under
+these same terms.
+
+**Third-party software** keeps its own license: see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+**Planner model license.** The default planner `qwen2.5:3b` is distributed under the *Qwen Research License* (non-commercial research use); the other Qwen2.5 sizes are Apache-2.0. Ouroboros does not bundle or redistribute any model: you pull it yourself with Ollama and accept its license. For commercial work set `OURO_MODEL` to a model whose license allows it, and read that model's license first.
+
+*This is not legal advice. If you rely on this software commercially, or are unsure whether your use is
+noncommercial, get the question reviewed by a lawyer or ask first.*

@@ -25,6 +25,21 @@ What protects you:
 - `.ouro/` is added to `.git/info/exclude` automatically; keep it out of commits.
 - Run untrusted repositories in a container or VM. Ouroboros is not an isolation boundary.
 
+## Legal and compliance notes
+
+Not legal advice.
+
+- **Your prompts stay local.** Ouroboros sends goals only to the Ollama endpoint you configure (default `127.0.0.1`)
+  and writes them to `.ouro/` in your workspace. It has no telemetry. If you point `OURO_OLLAMA_URL` at a remote
+  server, goal text leaves your machine: do not put personal data or secrets in goals.
+- **Model licenses are yours to follow.** Ouroboros bundles no model. The default `qwen2.5:3b` is under the Qwen
+  Research License (non-commercial); check any model's license before commercial use (see `THIRD_PARTY_NOTICES.md`).
+- **Generated code.** The coding agent's output may be subject to your employer's policies, your model provider's terms
+  and, for third-party code it reproduces, the original license. Review before shipping.
+- **Employer IP.** If you use this at work, check your employment and IP-assignment terms before publishing anything
+  derived from work projects.
+- **Guard is best-effort.** The denylist and optional classifier reduce risk; they do not guarantee compliance with any law.
+
 ## Reporting a vulnerability
 
 Please use GitHub's private vulnerability reporting (**Security -> Report a vulnerability**) on this repository.

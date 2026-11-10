@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Ouroboros (ouro) - Copyright (c) 2026 Chetas P. Licensed under the MIT License (see LICENSE).
+# Ouroboros (ouro) - Copyright (c) 2026 Chetas P. Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE).
 """ouro - Ouroboros: goal -> task graph (DAG) -> loop until verified, with a local model and a live graph.
 
 State lives in <workspace>/.ouro/ (state.json, graph.svg, graph.html, graph.md, log.jsonl).
